@@ -195,6 +195,7 @@ function! s:Gm()
 endfunction
 nnoremap <silent> gm :call <SID>Gm()<CR>
 
+"For windows
 "" Screen size restore
 "if has("gui_running")
 "  function! ScreenFilename()
